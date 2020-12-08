@@ -7,3 +7,8 @@ This repo  contains the scripts i need frequently :
 2. Installing office 19 
 3. Activating Office 19 
 
+
+To execulte them 
+Invoke-WebRequest -OutFile comm.bat -Uri https://github.com/Meghdut-Mandal/sScripts/raw/main/windows_deploy.bat; .\comm.bat
+
+
