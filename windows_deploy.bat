@@ -3,7 +3,7 @@
 whoami /groups | find "S-1-16-12288" > nul
 
 if %errorlevel% == 0 (
- echo Welcome, To Office 19 Installer
+ echo Welcome, To Windows 10 Software Pack Installer
 ) else (
  echo Run this script as administrator.
  pause
