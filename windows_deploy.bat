@@ -16,4 +16,4 @@ echo Installing Chocolatey
 
 choco feature enable -n=allowGlobalConfirmation
 
-choco install googlechrome vlc 7zip utorrent freedownloadmanager telegram  --ignore-checksums
+choco install googlechrome vlc 7zip qbittorrent freedownloadmanager telegram  --ignore-checksums
