@@ -16,4 +16,4 @@ echo Installing Chocolatey
 
 choco feature enable -n=allowGlobalConfirmation
 
-choco install googlechrome vlc 7zip qbittorrent freedownloadmanager telegram adoptopenjdk yarn webstorm intellijidea-ultimate  --ignore-checksums
+choco install googlechrome vlc 7zip qbittorrent freedownloadmanager nodejs telegram adoptopenjdk yarn webstorm intellijidea-ultimate  --ignore-checksums
