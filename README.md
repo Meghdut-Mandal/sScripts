@@ -10,7 +10,11 @@ This repo  contains the scripts i need frequently :
 
 To execulte them
 
+For Windows deplyment:-
 
 Invoke-WebRequest -OutFile comm.bat -Uri https://github.com/Meghdut-Mandal/sScripts/raw/main/windows_deploy.bat; .\comm.bat ;
 
 
+For Pritunl Deplyment:-
+
+sh -c "$(wget https://raw.githubusercontent.com/Meghdut-Mandal/sScripts/main/pritunl.sh -O -)"
