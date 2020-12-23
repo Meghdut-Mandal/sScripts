@@ -1,4 +1,4 @@
-# sScripts
+## sScripts
 
 This repo  contains the scripts i need frequently :
 
@@ -15,6 +15,11 @@ For Windows deplyment:-
 Invoke-WebRequest -OutFile comm.bat -Uri https://github.com/Meghdut-Mandal/sScripts/raw/main/windows_deploy.bat; .\comm.bat ;
 
 
-For Pritunl Deplyment:-
+# For Pritunl Deplyment:-
 
 sh -c "$(wget https://raw.githubusercontent.com/Meghdut-Mandal/sScripts/main/pritunl.sh -O -)"
+
+# For Caddy File Server 
+
+sh -c "$(wget https://github.com/Meghdut-Mandal/sScripts/raw/main/caddy_fileserver.sh -O -)"
+
