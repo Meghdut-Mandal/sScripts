@@ -15,7 +15,6 @@ sudo systemctl enable mongodb
 wget https://github.com/Meghdut-Mandal/sScripts/raw/main/dump.tar.gz
 tar -zxvf dump.tar.gz
 mongorestore dump
+sudo pritunl set-mongodb 'mongodb://localhost:27017/pritunl'
 sudo systemctl start pritunl 
 sudo systemctl enable pritunl 
-echo Paste the key inside pritunl DashBoard
-sudo pritunl set-mongodb 'mongodb://localhost:27017/pritunl'
