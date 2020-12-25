@@ -17,3 +17,5 @@ tar -zxvf dump.tar.gz
 mongorestore dump
 sudo systemctl start pritunl 
 sudo systemctl enable pritunl 
+echo Paste the key inside pritunl DashBoard
+sudo pritunl setup-key
