@@ -18,3 +18,6 @@ mongorestore dump
 sudo pritunl set-mongodb 'mongodb://localhost:27017/pritunl'
 sudo systemctl start pritunl 
 sudo systemctl enable pritunl 
+echo Server Running at  http://"$(dig +short myip.opendns.com @resolver1.opendns.com)"/
+echo User meghdut
+echo Password mmxnewton
