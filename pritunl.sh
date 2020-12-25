@@ -18,4 +18,4 @@ mongorestore dump
 sudo systemctl start pritunl 
 sudo systemctl enable pritunl 
 echo Paste the key inside pritunl DashBoard
-sudo pritunl setup-key
+sudo pritunl set-mongodb 'mongodb://localhost:27017/pritunl'
