@@ -6,6 +6,7 @@ This repo  contains the scripts i need frequently :
 1. Installing all the required Software on a Windows server 2019 via chocolaty
 2. Installing and Activating office 19 
 3. Fileserver Using Caddy
+4. Speed Test
 
 To execulte them
 
@@ -25,3 +26,7 @@ This requires Ubuntu Bionic
 
 sh -c "$(wget https://github.com/Meghdut-Mandal/sScripts/raw/main/caddy_fileserver.sh -O -)"
 
+## For speed test 
+This requires Ubuntu Bionic
+
+sh -c "$(wget https://github.com/Meghdut-Mandal/sScripts/raw/main/linux_speed_test.sh -O -)"
