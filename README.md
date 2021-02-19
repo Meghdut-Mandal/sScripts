@@ -13,7 +13,7 @@ To execulte them
 ## For Windows deplyment:-
 Open PowerShell and run the command
 
-Invoke-WebRequest -OutFile comm.bat -Uri https://github.com/Meghdut-Mandal/sScripts/raw/main/windows_deploy_v2.bat; .\comm.bat ;
+Invoke-WebRequest -OutFile comm.bat -Uri https://github.com/Meghdut-Mandal/sScripts/raw/main/windows_deploy.bat; .\comm.bat ;
 
 ## For setting up dev Environment in Windows:-
 This one first installs the reqirements and then other dev dependencies 
