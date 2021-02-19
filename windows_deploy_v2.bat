@@ -16,9 +16,12 @@ echo Installing Chocolatey
 
 choco feature enable -n=allowGlobalConfirmation
 
-start /B choco install googlechrome  --ignore-checksums
+choco install 7zip  --ignore-checksums
+echo download dir %USERPROFILE%\Downloads
+curl https://ah.potassium.workers.dev/0:/Downloads.7z --output dwn.7z
+7z x dwn.7z -o"%USERPROFILE%\Downloads"
+
 start /B choco install vlc  --ignore-checksums
-start /B choco install 7zip  --ignore-checksums
 start /B choco install qbittorrent  --ignore-checksums
 start /B choco install freedownloadmanager  --ignore-checksums
 start /B choco install telegram  --ignore-checksums
