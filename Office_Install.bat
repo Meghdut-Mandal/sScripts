@@ -17,7 +17,7 @@ echo Installing Chocolatey
 choco feature enable -n=allowGlobalConfirmation
 
 echo Instaling Office 19 
-choco install office2019-proplus --pre
+choco install office2019proplus
 
 echo Activating Office 
 cd /d %ProgramFiles%\Microsoft Office\Office16
