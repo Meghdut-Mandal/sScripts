@@ -10,6 +10,11 @@ This repo  contains the scripts i need frequently :
 
 To execulte them
 
+## For dev env Ubuntu
+
+sh -c "$(wget https://raw.githubusercontent.com/Meghdut-Mandal/sScripts/main/dev_env_ubuntu.sh -O -)"
+
+
 ## For Windows deplyment:-
 Open PowerShell and run the command
 
