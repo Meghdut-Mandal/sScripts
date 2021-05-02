@@ -14,18 +14,13 @@ To execulte them
 
 sh -c "$(wget https://raw.githubusercontent.com/Meghdut-Mandal/sScripts/main/dev_env_ubuntu.sh -O -)"
 
-## For Docker Ubunty 
+## For Docker Ubuntu
 sh -c "$(wget https://raw.githubusercontent.com/Meghdut-Mandal/sScripts/main/get_docker.sh -O -)"
-
 
 ## For Windows deplyment:-
 Open PowerShell and run the command
 
 Invoke-WebRequest -OutFile comm.bat -Uri https://github.com/Meghdut-Mandal/sScripts/raw/main/windows_deploy.bat; .\comm.bat ;
-
-## For setting up dev Environment in Windows:-
-This one first installs the reqirements and then other dev dependencies 
-
 
 ## For Pritunl Deplyment:-
 This requires Ubuntu Bionic
