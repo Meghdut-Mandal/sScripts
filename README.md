@@ -22,6 +22,10 @@ Open PowerShell and run the command
 
 Invoke-WebRequest -OutFile comm.bat -Uri https://github.com/Meghdut-Mandal/sScripts/raw/main/windows_deploy.bat; .\comm.bat ;
 
+## For Office 2019 deployment 
+
+Invoke-WebRequest -OutFile comm.bat -Uri https://github.com/Meghdut-Mandal/sScripts/raw/main/Office_Install.bat; .\comm.bat ;
+
 ## For Pritunl Deplyment:-
 This requires Ubuntu Bionic
 
