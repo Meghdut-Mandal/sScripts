@@ -10,7 +10,7 @@ if %errorlevel% == 0 (
 )
 
 echo Downloading Office Deploy tool 
-curl https://github.com/Meghdut-Mandal/sScripts/raw/main/setup.exe -O setup.exe
+curl https://github.com/Meghdut-Mandal/sScripts/blob/main/setup.exe?raw=true -O setup.exe
 curl https://raw.githubusercontent.com/Meghdut-Mandal/sScripts/main/config.xml -O config.xml
 setup.exe /configure config.xml
 
