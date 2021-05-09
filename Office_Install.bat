@@ -9,15 +9,10 @@ if %errorlevel% == 0 (
  pause
 )
 
-echo Installing Chocolatey 
-
-
-@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
-
-choco feature enable -n=allowGlobalConfirmation
-
-echo Instaling Office 19 
-choco install office2019proplus
+echo Downloading Office Deploy tool 
+curl https://github.com/Meghdut-Mandal/sScripts/raw/main/setup.exe -O setup.exe
+curl https://raw.githubusercontent.com/Meghdut-Mandal/sScripts/main/config.xml -O config.xml
+setup.exe /configure config.xml
 
 echo Activating Office 
 cd /d %ProgramFiles%\Microsoft Office\Office16
@@ -28,3 +23,5 @@ cscript ospp.vbs /unpkey:6MWKP >nul
 cscript ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP
 cscript ospp.vbs /sethst:kms8.msguides.com
 cscript ospp.vbs /act
+
+PAUSE
