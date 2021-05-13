@@ -1,5 +1,4 @@
 echo This script is no longer Maintained contact meghdut, for the office deployment tool.
-
 echo Activating Office 
 cd /d %ProgramFiles%\Microsoft Office\Office16
 for /f %x in ('dir /b ..\root\Licenses16\ProPlus2019VL*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"
